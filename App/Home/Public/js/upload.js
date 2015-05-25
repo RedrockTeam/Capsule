@@ -15,7 +15,7 @@ jQuery(function() {
         swf: '../webuploader/js/Uploader.swf',
 
         // 文件接收服务端。
-        server: '/Capsule/index.php/Home/Index/upload.html',
+        server: '/Capsule/index.php/Home/Index/upload',
 
         // 选择文件的按钮。可选。
         // 内部根据当前运行是创建，可能是input元素，也可能是flash.
@@ -48,8 +48,9 @@ jQuery(function() {
         $percent.css( 'width', percentage * 100 + '%' );
     });
 
-    uploader.on( 'uploadSuccess', function( file ) {
+    uploader.on( 'uploadSuccess', function( file, response ) {
         $( '#'+file.id ).find('p.state').text('已上传');
+        //$( '#'+file.id ).find('p.state').text(response.content);
     });
 
     uploader.on( 'uploadError', function( file ) {

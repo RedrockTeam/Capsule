@@ -3,21 +3,23 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
 
-    //首页
+    /**
+     * 首页
+     */
     public function index(){
         $this->display();
     }
 
     /**
-     *文件上传
+     * 文件上传
      */
     public function upload(){
         $upload = new \Think\Upload();// 实例化上传类
-        $upload->maxSize   =     3145728;// 设置附件上传大小, 以字节为单位
-        $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg','zip','rar','7z','doc','docx','xlsx','xls','pdf','psd','ppt','pptx','avi','wmv','mkv','flv','mp4','rmvb','mpg','txt');// 设置附件上传类型
-        $upload->rootPath  =     './Uploads/'; // 设置附件上传根目录;
-        $upload->savePath  =     ''; // 设置附件上传（子）目录
-        $upload->saveName  =     'com_create_guid';// 采用GUID序列命名
+        $upload->maxSize = 3145728;// 设置附件上传大小, 以字节为单位
+        $upload->exts = array('jpg', 'gif', 'png', 'jpeg','zip','rar','7z','doc','docx','xlsx','xls','pdf','psd','ppt','pptx','avi','wmv','mkv','flv','mp4','rmvb','mpg','txt');// 设置附件上传类型
+        $upload->rootPath = './Uploads/'; // 设置附件上传根目录;
+        $upload->savePath = ''; // 设置附件上传（子）目录
+        $upload->saveName = 'com_create_guid';// 采用GUID序列命名
 
         // 上传文件
         $info = $upload->upload();
@@ -25,11 +27,18 @@ class IndexController extends Controller {
             // 上传错误提示错误信息
             $this->error($upload->getError());
         }else{
-            // 上传成功
+            // 上传成功得到下载码
+            $data = [
+                'downloadcode' => $this->getDownLoadCode()    //下载码
+            ];
+            $codeId = M('code')->data($data)->add();
+            if(!$codeId){
+                $data['status']  = 1;
+                $data['content'] = '上传失败';
+                $this->ajaxReturn($data,'json');
+            }
             // 遍历上传文件信息, 传入数据库
             foreach($info as $key => $value){
-
-                //判断文件是否已经存在
                 //取出文件的md5的hash值
                 $hash = $value['md5'];
                 //查询文件是否存在, 文件过期的时候记得删除数据库里面的数据, 或者只查询在保质期内的数据
@@ -46,7 +55,7 @@ class IndexController extends Controller {
                                 $this->error('删除失败');
                             }
                         }
-                        // 删除老旧的同一个文件之后, 修改文件位置
+                        // 删除老旧的同一个文件之后, 修改之前数据库里面的文件位置
                         $datav =[
                             'id' => $v['id'],
                             'savepath' => $value['savepath'].$value['savename']
@@ -54,7 +63,6 @@ class IndexController extends Controller {
                         M('uploadfile')->data($datav)->save();
                     }
                 }
-
                 //添加上传文件信息
                 $data = [
                     'filename' => $value['name'],    //文件原名
@@ -63,15 +71,46 @@ class IndexController extends Controller {
                     'time' => time(),                //上传时间
                     'savepath' => ($value['savepath'].$value['savename']),  //存储路径
                     'filehash' => $value['md5'],     //文件的hash编码
-                    'user_id' => 1                   //上传用户的ID
+                    'user_id' => 1,                  //上传用户的ID
+                    'code_id' => $codeId
                 ];
 
                 //插入到数据库
                 $result = M('uploadfile')->data($data)->add();
                 if(!$result){
-                    $this->error('上传失败');
+                    $data['status']  = 1;
+                    $data['content'] = '上传失败';
+                    $this->ajaxReturn($data,'json');
                 }
             }
         }
     }
+
+
+    /**
+     * 获取到毫秒的时间戳
+     */
+    private function getMillisecond() {
+        list($s1, $s2) = explode(' ', microtime());
+        return (float)sprintf('%.0f', (floatval($s1) + floatval($s2)) * 1000);
+    }
+
+    /**
+     * 生成下载码函数(截取时间戳转换成36进制数)
+     */
+    private function getDownLoadCode(){
+        $msec = $this->getMillisecond();
+        $s = substr($msec,4);  //截取之后的字符串
+        $str = "0123456789abcdefghijklmnopqrstuvwxyz";
+        $res = "";
+        while($s){
+            $res .= $str[$s % 35];
+            $s = intval($s/36);
+        }
+        while(strlen($res) < 6){
+            $res= '0'.$res;
+        }
+        return $res;
+    }
+
 }
