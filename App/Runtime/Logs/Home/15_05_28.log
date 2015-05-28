@@ -1,0 +1,997 @@
+[ 2015-05-28T10:23:37+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017001s ]
+
+[ 2015-05-28T10:27:24+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:28:11+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-28T10:28:23+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:28:46+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T10:29:54+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-28T10:29:54+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:30:50+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:30:55+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:30:55+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:31:23+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:31:33+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:31:33+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T10:31:33+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:31:33+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T10:31:33+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:32:07+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:32:12+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:32:12+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:32:13+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:32:42+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:32:48+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-28T10:32:48+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-28T10:32:48+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:36:09+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-28T10:36:16+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:36:17+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:36:17+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:36:17+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T10:36:17+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:41:52+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:41:57+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T10:41:57+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:47:40+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:47:46+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `code` [ RunTime:0.007001s ]
+SQL: INSERT INTO `code` (`downloadcode`) VALUES ('3qofac') [ RunTime:0.073004s ]
+
+[ 2015-05-28T10:47:46+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:48:18+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-28T10:48:25+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `code` [ RunTime:0.003000s ]
+SQL: INSERT INTO `code` (`downloadcode`) VALUES ('j1jgac') [ RunTime:0.003000s ]
+
+[ 2015-05-28T10:48:26+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:50:15+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:50:20+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `code` [ RunTime:0.003000s ]
+SQL: INSERT INTO `code` (`downloadcode`) VALUES ('ln2iac') [ RunTime:0.003000s ]
+
+[ 2015-05-28T10:50:20+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:56:07+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:56:12+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `code` [ RunTime:0.004000s ]
+SQL: INSERT INTO `code` (`downloadcode`) VALUES ('40tqac') [ RunTime:0.002000s ]
+
+[ 2015-05-28T10:56:12+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:56:46+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T10:56:51+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `code` [ RunTime:0.002000s ]
+SQL: INSERT INTO `code` (`downloadcode`) VALUES ('wwoqac') [ RunTime:0.002000s ]
+
+[ 2015-05-28T10:56:51+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T11:01:07+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T11:01:09+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T11:01:16+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `code` [ RunTime:0.004000s ]
+SQL: INSERT INTO `code` (`downloadcode`) VALUES ('vhiwac') [ RunTime:0.004001s ]
+
+[ 2015-05-28T11:01:16+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T11:01:16+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T11:01:30+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T11:01:37+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `code` [ RunTime:0.002000s ]
+SQL: INSERT INTO `code` (`downloadcode`) VALUES ('uxyxac') [ RunTime:0.002000s ]
+
+[ 2015-05-28T11:01:37+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T11:01:37+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-05-28T11:01:37+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-28T11:01:37+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T11:03:02+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T11:03:08+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `code` [ RunTime:0.004000s ]
+SQL: INSERT INTO `code` (`downloadcode`) VALUES ('8pyyac') [ RunTime:0.036003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\Capsule\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `uploadfile` [ RunTime:0.089005s ]
+SQL: SELECT * FROM `uploadfile` WHERE `filehash` = 'fbde81e957b22bfc2d8ca8f8c91d15e0'  [ RunTime:0.046003s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 116 [ RunTime:0.052003s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 123 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 130 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 134 [ RunTime:0.002001s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 143 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 150 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 155 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 158 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 163 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 166 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 169 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 173 [ RunTime:0.003000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 180 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 190 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg' WHERE `id` = 192 [ RunTime:0.001000s ]
+SQL: INSERT INTO `uploadfile` (`filename`,`type`,`size`,`time`,`savepath`,`filehash`,`user_id`,`code_id`) VALUES ('1.jpg','jpg',37445,1432782188,'2015-05-28/{12F36D65-8D77-498C-A8D9-8C89CBDDF125}.jpg','fbde81e957b22bfc2d8ca8f8c91d15e0',1,65) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T11:03:08+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\Capsule\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `uploadfile` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `uploadfile` WHERE `filehash` = '7ac6f1c79653df058c50a1133d24fc10'  [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 117 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 124 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 131 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 133 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 135 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 144 [ RunTime:0.000000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 151 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 156 [ RunTime:0.002001s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 159 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 161 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 164 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 167 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 170 [ RunTime:0.002001s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 174 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 178 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 179 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 191 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg' WHERE `id` = 193 [ RunTime:0.002000s ]
+SQL: INSERT INTO `uploadfile` (`filename`,`type`,`size`,`time`,`savepath`,`filehash`,`user_id`,`code_id`) VALUES ('5f22fe39.jpg','jpg',91650,1432782188,'2015-05-28/{3E7765C2-55E3-447B-8012-DAC0EE06F9E1}.jpg','7ac6f1c79653df058c50a1133d24fc10',1,65) [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T11:03:08+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\Capsule\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `uploadfile` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `uploadfile` WHERE `filehash` = '9a73e978436fd0ff184d68e0d46cf8a0'  [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{E2E45D96-7EDC-4C13-88A2-090B772A35C0}.jpg' WHERE `id` = 136 [ RunTime:0.002001s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{E2E45D96-7EDC-4C13-88A2-090B772A35C0}.jpg' WHERE `id` = 141 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{E2E45D96-7EDC-4C13-88A2-090B772A35C0}.jpg' WHERE `id` = 145 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{E2E45D96-7EDC-4C13-88A2-090B772A35C0}.jpg' WHERE `id` = 152 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{E2E45D96-7EDC-4C13-88A2-090B772A35C0}.jpg' WHERE `id` = 157 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{E2E45D96-7EDC-4C13-88A2-090B772A35C0}.jpg' WHERE `id` = 160 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{E2E45D96-7EDC-4C13-88A2-090B772A35C0}.jpg' WHERE `id` = 162 [ RunTime:0.001001s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{E2E45D96-7EDC-4C13-88A2-090B772A35C0}.jpg' WHERE `id` = 165 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{E2E45D96-7EDC-4C13-88A2-090B772A35C0}.jpg' WHERE `id` = 168 [ RunTime:0.000000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{E2E45D96-7EDC-4C13-88A2-090B772A35C0}.jpg' WHERE `id` = 181 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{E2E45D96-7EDC-4C13-88A2-090B772A35C0}.jpg' WHERE `id` = 194 [ RunTime:0.001000s ]
+SQL: INSERT INTO `uploadfile` (`filename`,`type`,`size`,`time`,`savepath`,`filehash`,`user_id`,`code_id`) VALUES ('17-1211210Z243.jpg','jpg',453839,1432782188,'2015-05-28/{E2E45D96-7EDC-4C13-88A2-090B772A35C0}.jpg','9a73e978436fd0ff184d68e0d46cf8a0',1,65) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-28T11:03:50+08:00 ] 127.0.0.1 /Capsule/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T11:03:57+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `code` [ RunTime:0.004001s ]
+SQL: INSERT INTO `code` (`downloadcode`) VALUES ('vy21ac') [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\Capsule\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `uploadfile` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `uploadfile` WHERE `filehash` = 'fbde81e957b22bfc2d8ca8f8c91d15e0'  [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 116 [ RunTime:0.002001s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 123 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 130 [ RunTime:0.003000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 134 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 143 [ RunTime:0.003001s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 150 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 155 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 158 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 163 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 166 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 169 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 173 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 180 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 190 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 192 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg' WHERE `id` = 195 [ RunTime:0.001000s ]
+SQL: INSERT INTO `uploadfile` (`filename`,`type`,`size`,`time`,`savepath`,`filehash`,`user_id`,`code_id`) VALUES ('1.jpg','jpg',37445,1432782237,'2015-05-28/{7D8C25DE-5C63-414E-AD31-1AB67AE228A1}.jpg','fbde81e957b22bfc2d8ca8f8c91d15e0',1,66) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-05-28T11:03:57+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\Capsule\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `uploadfile` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `uploadfile` WHERE `filehash` = '7ac6f1c79653df058c50a1133d24fc10'  [ RunTime:0.000000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 117 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 124 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 131 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 133 [ RunTime:0.000000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 135 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 144 [ RunTime:0.003000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 151 [ RunTime:0.001001s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 156 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 159 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 161 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 164 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 167 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 170 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 174 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 178 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 179 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 191 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 193 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg' WHERE `id` = 196 [ RunTime:0.000000s ]
+SQL: INSERT INTO `uploadfile` (`filename`,`type`,`size`,`time`,`savepath`,`filehash`,`user_id`,`code_id`) VALUES ('5f22fe39.jpg','jpg',91650,1432782237,'2015-05-28/{3227D7B8-1D95-4EEA-953D-F8A80731B558}.jpg','7ac6f1c79653df058c50a1133d24fc10',1,66) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-28T11:03:57+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\Capsule\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `uploadfile` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uploadfile` WHERE `filehash` = '9a73e978436fd0ff184d68e0d46cf8a0'  [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg' WHERE `id` = 136 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg' WHERE `id` = 141 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg' WHERE `id` = 145 [ RunTime:0.000000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg' WHERE `id` = 152 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg' WHERE `id` = 157 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg' WHERE `id` = 160 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg' WHERE `id` = 162 [ RunTime:0.002001s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg' WHERE `id` = 165 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg' WHERE `id` = 168 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg' WHERE `id` = 181 [ RunTime:0.003000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg' WHERE `id` = 194 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg' WHERE `id` = 197 [ RunTime:0.001001s ]
+SQL: INSERT INTO `uploadfile` (`filename`,`type`,`size`,`time`,`savepath`,`filehash`,`user_id`,`code_id`) VALUES ('17-1211210Z243.jpg','jpg',453839,1432782237,'2015-05-28/{2654AEF0-C6D6-4D6F-AB69-97E96CEB5CDF}.jpg','9a73e978436fd0ff184d68e0d46cf8a0',1,66) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-05-28T11:03:57+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\Capsule\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `uploadfile` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uploadfile` WHERE `filehash` = '0b675fa7a298f47df7fe707c9469b3b7'  [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{39893C43-3D6F-49BF-9EE0-5734F2FD10A1}.jpg' WHERE `id` = 139 [ RunTime:0.068004s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{39893C43-3D6F-49BF-9EE0-5734F2FD10A1}.jpg' WHERE `id` = 142 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{39893C43-3D6F-49BF-9EE0-5734F2FD10A1}.jpg' WHERE `id` = 148 [ RunTime:0.001001s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{39893C43-3D6F-49BF-9EE0-5734F2FD10A1}.jpg' WHERE `id` = 153 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{39893C43-3D6F-49BF-9EE0-5734F2FD10A1}.jpg' WHERE `id` = 172 [ RunTime:0.000000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{39893C43-3D6F-49BF-9EE0-5734F2FD10A1}.jpg' WHERE `id` = 177 [ RunTime:0.002000s ]
+SQL: INSERT INTO `uploadfile` (`filename`,`type`,`size`,`time`,`savepath`,`filehash`,`user_id`,`code_id`) VALUES ('0048.jpg','jpg',162456,1432782237,'2015-05-28/{39893C43-3D6F-49BF-9EE0-5734F2FD10A1}.jpg','0b675fa7a298f47df7fe707c9469b3b7',1,66) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-28T11:03:57+08:00 ] 127.0.0.1 /Capsule/index.php/Home/Index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\Capsule\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\Capsule\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `uploadfile` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `uploadfile` WHERE `filehash` = '59788fc6db6ebd03fdfe4283db4fc5e3'  [ RunTime:0.000000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{82837B97-7D05-4D09-B561-ECEEEDE7CC3D}.jpg' WHERE `id` = 122 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{82837B97-7D05-4D09-B561-ECEEEDE7CC3D}.jpg' WHERE `id` = 129 [ RunTime:0.001000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{82837B97-7D05-4D09-B561-ECEEEDE7CC3D}.jpg' WHERE `id` = 140 [ RunTime:0.000000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{82837B97-7D05-4D09-B561-ECEEEDE7CC3D}.jpg' WHERE `id` = 149 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{82837B97-7D05-4D09-B561-ECEEEDE7CC3D}.jpg' WHERE `id` = 154 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{82837B97-7D05-4D09-B561-ECEEEDE7CC3D}.jpg' WHERE `id` = 175 [ RunTime:0.002000s ]
+SQL: UPDATE `uploadfile` SET `savepath`='2015-05-28/{82837B97-7D05-4D09-B561-ECEEEDE7CC3D}.jpg' WHERE `id` = 182 [ RunTime:0.001000s ]
+SQL: INSERT INTO `uploadfile` (`filename`,`type`,`size`,`time`,`savepath`,`filehash`,`user_id`,`code_id`) VALUES ('86b67838.jpg','jpg',46895,1432782237,'2015-05-28/{82837B97-7D05-4D09-B561-ECEEEDE7CC3D}.jpg','59788fc6db6ebd03fdfe4283db4fc5e3',1,66) [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

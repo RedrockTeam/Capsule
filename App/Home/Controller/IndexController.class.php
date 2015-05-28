@@ -1,6 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+
 class IndexController extends Controller {
 
     /**
@@ -14,6 +15,10 @@ class IndexController extends Controller {
      * 文件上传
      */
     public function upload(){
+
+        //把这一批次上传的文件打包
+        $this->package();
+
         $upload = new \Think\Upload();// 实例化上传类
         $upload->maxSize = 3145728;// 设置附件上传大小, 以字节为单位
         $upload->exts = array('jpg', 'gif', 'png', 'jpeg','zip','rar','7z','doc','docx','xlsx','xls','pdf','psd','ppt','pptx','avi','wmv','mkv','flv','mp4','rmvb','mpg','txt');// 设置附件上传类型
@@ -27,16 +32,6 @@ class IndexController extends Controller {
             // 上传错误提示错误信息
             $this->error($upload->getError());
         }else{
-            // 上传成功得到下载码
-            $data = [
-                'downloadcode' => $this->getDownLoadCode()    //下载码
-            ];
-            $codeId = M('code')->data($data)->add();
-            if(!$codeId){
-                $data['status']  = 1;
-                $data['content'] = '上传失败';
-                $this->ajaxReturn($data,'json');
-            }
             // 遍历上传文件信息, 传入数据库
             foreach($info as $key => $value){
                 //取出文件的md5的hash值
@@ -72,7 +67,7 @@ class IndexController extends Controller {
                     'savepath' => ($value['savepath'].$value['savename']),  //存储路径
                     'filehash' => $value['md5'],     //文件的hash编码
                     'user_id' => 1,                  //上传用户的ID
-                    'code_id' => $codeId
+                    'code_id' => session('userid')
                 ];
 
                 //插入到数据库
@@ -111,6 +106,27 @@ class IndexController extends Controller {
             $res= '0'.$res;
         }
         return $res;
+    }
+
+    /**
+     * 文件打包
+     */
+    private function package(){
+        $fileID = I('post.id');
+        if($fileID == 'WU_FILE_0'){
+            //如果id等于0说明是一次上传的开始,在上传码表里面插入一条数据并且存进session
+            $data = [
+                'downloadcode' => $this->getDownLoadCode()    //下载码
+            ];
+            $codeId = M('code')->data($data)->add();
+            if(!$codeId){
+                $data['status']  = 1;
+                $data['content'] = '上传失败';
+                $this->ajaxReturn($data,'json');
+            }else{
+                session('userid',$codeId);
+            }
+        }
     }
 
 }
