@@ -22,18 +22,19 @@ html{
     height: 100%;
 }
 body{
-    height: 100%;
     width: 100%;
+    height: 100%;
     position: relative;
 }
 #main_box.active{
-    opacity: 0.3;
     filter:alpha(opacity=30);
+    opacity: 0.3;
 }
 #header{
-    width: 84.02%;
+    width: 960px;
     margin: 0 auto;
     padding: 0 10px;
+    overflow: hidden;
 }
 .logo{
     float: left;
@@ -44,94 +45,69 @@ body{
     float: right;
     margin-top: 20px;
     font-size: 14px;
-    color: #999;
 }
-.login_btn:hover{
+.login_btn a{
+    text-decoration: none;
+    color:#999
+}
+.login_btn a:hover{
     color:#3dd152;
     cursor: pointer;
 }
-#wrap_content{
-    width: 84.02%;
-    height: 50%;
-    position: absolute;
-    position: relative\9;
-    top: 0;
-    top: 80px\9;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    min-width: 960px;
-    min-width: 1210px\9;
-    min-height: 346px;
-}
-#mac_img{
-    float: left;
-    margin-right: 2.5%;
-    width: 47.5%;
-}
-#mac_img img{
-    width: 100%;
-}
-#content{
-    width: 47.5%;
-    float: left;
-}
-#content h1{
-    font-size: 3.5rem;
-    font-size: 70px\9;
-    font-weight: 100;
-    line-height: 4.2rem;
-    line-height: 84px\9;
-}
-#content h4{
-    margin-top: 1rem;
-    margin-top: 20px\9;
-    font-size: 1.5rem;
-    font-size: 30px\9;
-    line-height: 2.2rem;
-    line-height: 44px\9;
-}
-.download,.upload{
-    margin-top: 3rem;
-    margin-top: 60px\9;
-    border-radius: 0.5rem;
-    border-radius: 10px\9;
-    background: #3dd152;
-    border: 0;
-    width: 10.5rem;
-    width: 210px\9;
-    height: 3rem;
-    height: 60px\9;
-    line-height: 3rem;
-    line-height: 60px\9;
-    font-size: 1.2rem;
-    font-size: 24px\9;
-    color: #fff;
-    margin-right: 1.5rem;
-    margin-right: 30px\9;
-}
-#content i{
-    font-size: 1.2rem;
-    padding-right: 0.3rem;
-    font-size: 24px\9;;
-    padding-right: 6px\9;
 
+#banner{
+    margin-top: 10px;
+    height: 114px;
+    width: 100%;
+    background: url("../img/banner_index.jpg") center no-repeat #3cd153;
 }
+
+#input_box{
+    width: 384px;
+    height: 235px;
+    margin: 74px auto 0;
+    background:url("../img/index_input_box.jpg");
+    overflow: hidden;
+}
+
+#input_box h2{
+    margin-top: 67px;
+    line-height: 34px;
+    margin-left: 24px;
+    font-size: 14px;
+}
+#input_box form{
+    margin-left: 24px;
+}
+#input_box .number{
+    width: 186px;
+    height: 34px;
+    line-height: 34px;
+    padding:0 0 0 10px ;
+    border: #c8cbc4 solid 1px;
+}
+#input_box .btn{
+    width: 118px;
+    height: 36px;
+    background: #46d45b;
+    border: 0;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 11px;
+}
+
 #footer{
     height: 90px;
-    background: #273133;
     width: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
     font-size: 12px;
-    color: #fff;
     text-align: center;
     line-height: 90px;
 }
 
-/*弹出框共有样式*/
+/*login_box*/
 .alert_box{
     position: absolute;
     top: 50%;
@@ -159,8 +135,8 @@ body{
     font-size: 24px;
 }
 
-/*login_box*/
 #login_box{
+    border: 1px #ccc solid;
     height: 326px;
     margin-top:-163px;
 }
@@ -173,12 +149,14 @@ body{
     margin: 5px 98px;
     width: 252px;
     height: 44px;
+    line-height: 44px;
     border-radius: 3px;
     border: 1px #ccc solid;
     color: #999;
 }
 .login_submit{
     width: 272px;
+
     display: block;
     border: none;
     color : #fff;
@@ -191,34 +169,6 @@ body{
 #forget_password a{
     text-decoration: none;
     color: #999;
-}
-
-/*input_box*/
-#input_box{
-    height: 246px;
-    margin-top: -123px;
-}
-#input_box h2{
-    margin-top: 46px;
-    margin-left: 96px;
-}
-#input_box ul{
-    overflow: hidden;
-    margin: 20px 0 30px 96px;
-}
-#input_box li{
-    float: left;
-    width: 38px;
-    height: 38px;
-    border: 1px solid #afafaf;
-    margin-right: 5px;
-    border-radius: 4px ;
-    font-size: 20px;
-    line-height: 38px;
-    text-align: center;
-}
-.input_number{
-    display: none;
 }
 
 /*iconfont*/
