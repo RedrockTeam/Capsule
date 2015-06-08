@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aea9de6-ba8d-4745-9217-566d295c6da6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/印盘策划书.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/1首页.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/1首页.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/2登陆.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/2登陆.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/2输入提取码.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/2输入提取码.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/上传失败.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/上传失败.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/上传文件状态.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/上传文件状态.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/兼容 首页.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/兼容首页.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/文件下载列表.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/文件下载列表.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/正在上传.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/正在上传.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/用户登陆界面.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/用户登陆界面.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/获得提取码.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/图片/获得提取码.psd" afterPath="" />
     </list>
     <ignored path="indianDish.iws" />
     <ignored path=".idea/workspace.xml" />
