@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aea9de6-ba8d-4745-9217-566d295c6da6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/defineRem.js" afterPath="$PROJECT_DIR$/js/defineRem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index_ie_low.css" afterPath="$PROJECT_DIR$/css/index_ie_low.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index_ie_low.html" afterPath="$PROJECT_DIR$/html/index_ie_low.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="indianDish.iws" />
     <ignored path=".idea/workspace.xml" />
