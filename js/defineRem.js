@@ -4,8 +4,8 @@
 
 function defineRem(){
     var doc = document,
-        docEl = doc.documentElement,
-        witDoc = docEl.getBoundingClientRect().width;
+        docEl = doc.documentElement || doc.body,
+        witDoc = docEl.offsetWidth;
 
     if(witDoc > 960){
         docEl.style.fontSize = witDoc / 72 + 'px';
