@@ -62,6 +62,7 @@
                     inHei = parseInt($wrapCon.css('height')),
                     rem = parseInt($html.css('fontSize'));
 
+                $wrapCon.css('position','absolute');
                 $wrapCon.css('left', ((outWid - inWid)/2) + 'px' );
                 $wrapCon.css('top', ((outHei - inHei)/2) + 'px' );
 
@@ -117,21 +118,33 @@
     /*下载框*/
     if($('.download')){
         alert_box($('.download'), $('#input_box'),function(){
-            var count = 0
+
+            var curLen = 0;
+
             $(document).on('keydown',function(event){
 
-                if((event.keyCode >= 48 && event.keyCode <= 57 || event.keyCode >= 65 && event.keyCode <= 90 || event.keyCode >= 97 && event.keyCode <= 122 || event.keyCode == 27) && count < 6){
-                    if(event.keyCode === 27){
-                        console.log(event);
-                        event.stopPropagation();
-                        $('#input_box li').eq(count).html('');
-                        count--;
-                        return false;
+                /*按下退格时会删除数字*/
+                if(event.keyCode === 8){
+                    console.log(event.keyCode);
+                    event.stopPropagation();
+                    event.preventDefault();
+                    if(curLen <= 6 && curLen >= 0) {
+                        $('#input_box li').eq(curLen - 1).html(' ');
+                        curLen--;
                     }
-                    $('#input_box li').eq(count).html(String.fromCharCode(event.keyCode));
-                    count++;
+                }
 
-                    if(count === 6){
+                /*按下空格时会刷新lenCount*/
+                if(event.keyCode === 32){
+                    return false;
+                }
+
+                /*按下数字或字符键更新lenCount并显示再输入框中*/
+                if(curLen < 6 && (event.keyCode >= 48 && event.keyCode <= 57 || event.keyCode >= 65 && event.keyCode <= 90 || event.keyCode >= 97 && event.keyCode <= 122 || event.keyCode == 27) ){
+                    $('#input_box li').eq(curLen).html(String.fromCharCode(event.keyCode));
+                    curLen++;
+
+                    if(curLen === 6){
                         var str = '';
                         $('#input_box li').each(function(){
                             str += $(this).html();

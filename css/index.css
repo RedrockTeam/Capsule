@@ -57,8 +57,11 @@ body{
     top: 0;
     left: 0;
     bottom: 0;
+    bottom: auto\9;
     right: 0;
+    right: auto\9;
     margin: auto;
+    margin: 0\9;
     min-width: 960px;
     min-height: 346px;
 }
@@ -156,6 +159,7 @@ body{
     margin: 5px 98px;
     width: 252px;
     height: 44px;
+    line-height: 44px;
     border-radius: 3px;
     border: 1px #ccc solid;
     color: #999;
@@ -210,6 +214,7 @@ body{
     margin-left: -463px;
     max-height: 300px;
     overflow: scroll;
+    overflow: auto\9;
     margin-top: -180px;
     padding :46px  0;
     display: block;
@@ -232,7 +237,7 @@ body{
     padding-left: 50px;
 }
 
-#picker, #ctlBtn{
+#picker{
     display: inline-block;
     cursor: pointer;
     width: 272px;
@@ -242,13 +247,23 @@ body{
     color: #fff;
     border: 0;
     border-radius: 5px;
-}
-#picker{
     margin-left: 162px;
 }
 #ctlBtn{
     margin-left: 50px;
     vertical-align: 15px;
+    display: inline-block;
+    cursor: pointer;
+    width: 272px;
+    height: 42px;
+    line-height: 42px;
+    background: #3dd152;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    position: absolute\9;
+    left: 486px\9;
+    top: 44px\9;
 
 }
 #ctlBtn:hover{

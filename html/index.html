@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <title>印盘</title>
     <link rel="stylesheet" href="../css/index.css"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="../js/jquery-1.11.3.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
     <link rel="stylesheet" type="text/css" href="../css/webuploader.css">
-    <script src="../js/webuploader.js"></script>
     <script>
         var isIE=!!window.ActiveXObject;
         var isIE6=isIE&&!window.XMLHttpRequest;
@@ -51,7 +49,7 @@
         <form action="">
             <input type="text" name="number" value="学号" class="input_box student_number"/>
             <input type="text" name="password" value="密码" class="input_box password"/>
-            <input type="submit" class="input_box login_submit"/>
+            <input type="submit" class="input_box login_submit" value="登陆"/>
         </form>
         <span id="forget_password"><a href="">忘记密码</a></span>
     </div>
@@ -81,6 +79,9 @@
         </div>
     </div>
 
-    <script src="../js/index.js"></script>
+
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/webuploader.js"></script>
+<script src="../js/index.js"></script>
 </body>
 </html>
