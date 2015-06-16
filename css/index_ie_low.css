@@ -1,0 +1,186 @@
+/*reset样式*/
+html{
+    font-family: "微软雅黑";
+}
+body,h1,h2,h4{
+    margin: 0;
+    font-size: 12px;
+}
+img{
+    border: 0;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+
+/*main_box*/
+html{
+    background: #fff;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#main_box.active{
+    filter:alpha(opacity=30);
+    opacity: 0.3;
+}
+#header{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    margin-top: 25px;
+    width: 100px;
+}
+.login_btn{
+    float: right;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.login_btn a{
+    text-decoration: none;
+    color:#999
+}
+.login_btn a:hover{
+    color:#3dd152;
+    cursor: pointer;
+}
+
+#banner{
+    margin-top: 10px;
+    height: 114px;
+    width: 100%;
+    background: url("../img/banner_index.jpg") center no-repeat #3cd153;
+}
+
+#input_box{
+    width: 384px;
+    height: 235px;
+    margin: 74px auto 0;
+    background:url("../img/index_input_box.jpg");
+    overflow: hidden;
+}
+
+#input_box h2{
+    margin-top: 67px;
+    line-height: 34px;
+    margin-left: 24px;
+    font-size: 14px;
+}
+#input_box form{
+    margin-left: 24px;
+}
+#input_box .number{
+    width: 186px;
+    height: 34px;
+    line-height: 34px;
+    padding:0 0 0 10px ;
+    border: #c8cbc4 solid 1px;
+}
+#input_box .btn{
+    width: 118px;
+    height: 36px;
+    background: #46d45b;
+    border: 0;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 11px;
+}
+
+#footer{
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 90px;
+}
+
+/*login_box*/
+.alert_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 466px;
+    margin-left:-233px;
+    display: none;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+}
+.alert_box i{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #999;
+}
+.alert_box i:hover{
+    color: #3ed152;
+    cursor: pointer;
+}
+.alert_box h2{
+    color: #3ed152;
+    margin-bottom: 22px;
+    font-size: 24px;
+}
+
+#login_box{
+    border: 1px #ccc solid;
+    height: 326px;
+    margin-top:-163px;
+}
+#login_box h2{
+    margin-top: 50px;
+    text-align: center;
+}
+.input_box{
+    padding-left: 20px;
+    margin: 5px 98px;
+    width: 252px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 3px;
+    border: 1px #ccc solid;
+    color: #999;
+}
+.login_submit{
+    width: 272px;
+    display: block;
+    border: none;
+    color : #fff;
+    margin-bottom: 10px;
+    background: #3cd051;
+}
+#forget_password{
+    margin-left: 98px;
+}
+#forget_password a{
+    text-decoration: none;
+    color: #999;
+}
+
+/*iconfont*/
+@font-face {font-family: 'iconfont';
+    src: url('../img/font/iconfont.eot'); /* IE9*/
+    src: url('../img/font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../img/font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../img/font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../img/font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}

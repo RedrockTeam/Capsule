@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/Capsule.iml" filepath="$PROJECT_DIR$/.idea/Capsule.iml" />
     </modules>
   </component>
 </project>
 
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/indianDish.iml" filepath="$PROJECT_DIR$/.idea/indianDish.iml" />
+    </modules>
+  </component>
+</project>
+>>>>>>> fe
